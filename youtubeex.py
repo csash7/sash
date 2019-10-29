@@ -17,7 +17,7 @@ import pafy
 
 # Please ensure that you have enabled the YouTube Data API for your project.
 
-DEVELOPER_KEY = "AIzaSyBAl6nVRAys1ZNhICd0sJmVZfeEbE1pt8Y "
+DEVELOPER_KEY = "DEVELOPER_KEY "
 
 YOUTUBE_API_SERVICE_NAME = "youtube"
 
@@ -112,8 +112,6 @@ def youtube_search(options):
 
 def youtubeplay(vname):
 
-
-      argparser.add_argument("--q", help="Halsey", default=vname)
 
       argparser.add_argument("--max-results", help="Max results", default=10)
 
