@@ -17,8 +17,6 @@ video_capture = cv2.VideoCapture(0)
 harsha_image = face_recognition.load_image_file("passport1.jpg")
 harsha_face_encoding = face_recognition.face_encodings(harsha_image)[0]
 
-goutham_image = face_recognition.load_image_file("goutham.jpeg")
-goutham_face_encoding = face_recognition.face_encodings(goutham_image)[0]
 
 # Initialize some variables
 face_locations = []
